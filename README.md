@@ -9,6 +9,12 @@ Netbox areas that will be required:
 - IPAM
 - Custom Fields (Arquitecture OS, Cores, Number of CPU, Threads, CPU model, Disk Partition, Memory )
 
+Tested on:
+- Netbox = 3.3.2
+- ansible-playbook = core 2.13.1
+- python version = 3.8.10
+- jinja version = 3.1.2
+
 ## Architecture:
 ![image](https://user-images.githubusercontent.com/86939628/224460873-fbf4040f-dc70-4729-8ad1-43bf1a8864d3.png)
 
