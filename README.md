@@ -19,6 +19,7 @@ Hosts:
 CM (Ansible):
   - Install Kerberos/sshkeys to access to the hosts of your ansible inventory.
   - Install Ansible.
+  
 Netbox:
   - Create and Adapat the variables of the file main.yml (Create the temporary objects o relate them to those that already exist
  )
