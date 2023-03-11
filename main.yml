@@ -1,8 +1,6 @@
 ---
 - hosts: win
   vars:
-  
-        
     #################################################
     ################# MANAGMENT #####################
     
@@ -12,8 +10,8 @@
     device_role: "Servidores Fisicos" 
 
     
-    url_nb: "http://192.168.1.203"
-    token_nb: "4c121d2ed2103e10fd2f4d9532dcb8e040fd0fc9"
+    url_nb: "http://192.168.1.203" # NETBOX URL
+    token_nb: "4c121d2ed2103e10fd2f4d9532dcb8e040fd0fc9" # NETBOX TOKEN
 
   
     ##################################################
