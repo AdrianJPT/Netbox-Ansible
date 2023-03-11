@@ -16,7 +16,7 @@ Netbox areas that will be required:
 Hosts:
   - Install WinRM on Windows OS to access from the CM (Control Machine)
 
-CM:
+CM (Ansible):
   - Install Kerberos/sshkeys to access to the hosts of your ansible inventory.
   - Install Ansible.
   
@@ -27,15 +27,6 @@ CM:
  
   - Set the inventory (IP or DomainName) in hosts.
   - Then run the ansible playbook and populate your server information into NETBOX.
-  #ansible-playbook main.yml -i hosts
-  
-  ![image](https://user-images.githubusercontent.com/86939628/224456921-af46541e-9f0d-4669-be24-429d6fd4c02a.png)
-
-Netbox:
-
+  *ansible-playbook main.yml -i hosts
 
   
-
-Funtionality supported NETBOX - ZABBIX:
-- Devices (Disk, VM)
-- IPAM
