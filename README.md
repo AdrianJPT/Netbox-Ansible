@@ -1,7 +1,7 @@
 # Netbox - Ansible
 
 Gather all the devices mapped in your ansible-inventory (hosts) and populate the information into netbox automatically
-(For now the script is only supported for Windows OS)
+(For now the script is only supported to gather Windows information)
 
 ## Functionalities:
 Netbox areas that will be required:
