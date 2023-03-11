@@ -19,14 +19,20 @@ Hosts:
 CM (Ansible):
   - Install Kerberos/sshkeys to access to the hosts of your ansible inventory.
   - Install Ansible.
-  
-  - Adapat the variables of the file main.yml (Create the temporary objects o relate them to those that already exist
+Netbox:
+  - Create and Adapat the variables of the file main.yml (Create the temporary objects o relate them to those that already exist
  )
   
-  ![image](https://user-images.githubusercontent.com/86939628/224456020-4c4954c4-1fde-479e-85e7-90cabafb49cd.png)
+![image](https://user-images.githubusercontent.com/86939628/224463483-bfe48c3f-af41-47ad-80ed-95021e0f2ecd.png)
  
   - Set the inventory (IP or DomainName) in hosts.
   - Then run the ansible playbook and populate your server information into NETBOX.
   * ansible-playbook main.yml -i hosts
 
+EXECUTION:
+
+https://user-images.githubusercontent.com/86939628/224464231-f5942094-e4aa-4383-88a9-8528a22439d0.mp4
+
+
+  
   
