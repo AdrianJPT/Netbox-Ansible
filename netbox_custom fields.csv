@@ -1,0 +1,9 @@
+Name,Content types,Label,Group name,Type,Required,Description
+"arquitectura,""dcim.device,virtualization.virtualmachine"",Arquitectura,,Text,False,"
+cores,dcim.device,Cores,,Text,False,
+cpu,dcim.device,CPU,,Text,False,
+cpu_cantidad,dcim.device,Cant. CPU,,Text,False,
+disk_partition,dcim.device,Disk Partition,,Text (long),False,
+memory,dcim.device,Memory GB,,Text,False,
+threads,dcim.device,Threads,,Text,False,
+zabbix_hostid,dcim.device,,,Integer,False,
