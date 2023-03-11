@@ -7,7 +7,7 @@
       address: "{{ ipv4 }}/{{ prefix }}"
       assigned_object:
         device: "{{ hostname }}"
-        name: "ge0/4"
+        name: "{{ device_type_interface }}"
       status: "Active"
     state: present
     query_params:
