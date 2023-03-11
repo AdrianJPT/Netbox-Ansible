@@ -27,6 +27,6 @@ CM (Ansible):
  
   - Set the inventory (IP or DomainName) in hosts.
   - Then run the ansible playbook and populate your server information into NETBOX.
-  *ansible-playbook main.yml -i hosts
+  * ansible-playbook main.yml -i hosts
 
   
