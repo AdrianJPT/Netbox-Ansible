@@ -22,7 +22,7 @@ Tested on:
 Hosts:
   - Install WinRM on Windows OS to access from the CM (Control Machine)
 
-CM (Ansible):
+Control Machine (Ansible):
   - Install Kerberos/sshkeys to access to the hosts of your ansible inventory.
   - Install Ansible.
   
