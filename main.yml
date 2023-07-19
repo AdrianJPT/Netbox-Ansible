@@ -4,10 +4,10 @@
     #################################################
     ################# MANAGMENT #####################
     
-    site_temporal: 5     # site.id de ansible para su almacenamiento temporal
-    device_type : "HP Proliant Gen 10" #The device type from netbox
+    site_temporal: 5     # site.id that will be used for the gathered devices  
+    device_type : "HP Proliant Gen 10" #The device type that will be used for the gathered devices  
     device_type_interface: "ge0/4" # The interface Netbox where the IP will be assigned
-    device_role: "Servidores Fisicos" 
+    device_role: "Servidores Fisicos" # The Device Role that will be used for the gathered devices  
 
     
     url_nb: "http://192.168.1.203" # NETBOX URL
