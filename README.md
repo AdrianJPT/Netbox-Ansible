@@ -27,10 +27,25 @@ CM (Ansible):
   - Install Ansible.
   
 Netbox:
-  - Create and Adapat the variables of the file main.yml (Create the temporary objects o relate them to those that already exist
+  - Create and Adapat the variables of the file _main.yml_ (Create the temporary objects o relate them to those that already exist
  )
-  
-![image](https://user-images.githubusercontent.com/86939628/224463483-bfe48c3f-af41-47ad-80ed-95021e0f2ecd.png)
+ _main.yml_:
+  ```yml
+---
+- hosts: win
+  vars:
+    #################################################
+    ################# MANAGMENT #####################
+    
+    site_temporal: 5     # site.id that will be used for the gathered devices  
+    device_type : "HP Proliant Gen 10" #The device type that will be used for the gathered devices  
+    device_type_interface: "ge0/4" # The interface Netbox where the IP will be assigned
+    device_role: "Servidores Fisicos" # The Device Role that will be used for the gathered devices  
+
+    
+    url_nb: "http://192.168.1.203" # NETBOX URL
+    token_nb: "4c121d2ed2103e10fd2f4d9532dcb8e040fd0fc9" # NETBOX TOKEN
+```
  
   - Set the inventory (IP or DomainName) in hosts.
   - Then run the ansible playbook and populate your server information into NETBOX.
